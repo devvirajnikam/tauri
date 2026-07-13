@@ -7,6 +7,7 @@ mod impl_methods;
 mod match_examples;
 mod option_result;
 mod real_world_patterns;
+mod std_like_internals;
 mod traits;
 
 fn main() {
@@ -20,4 +21,5 @@ fn main() {
     traits::run();
     advanced_topics::run();
     real_world_patterns::run();
+    std_like_internals::run();
 }
